@@ -1,5 +1,5 @@
-from rendering.maps import BaseMap
-from hydrology.contour import ContourField
+from hydrogis.core.rendering.maps import BaseMap
+from hydrogis.core.hydrology.contour import ContourField
 from dataclasses import dataclass
 from pathlib import Path
 from typing import TypedDict
